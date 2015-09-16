@@ -1,4 +1,4 @@
-FROM ubuntu:quantal
+FROM ubuntu:latest
 MAINTAINER = Jason M. Mills <jmmills@cpan.org>
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update
